@@ -139,9 +139,13 @@ table{
   margin-left: 30px;
   margin-top: 30px;
 }
+table a {
+text-decoration: none;
+
+}
 th{
+  font-size: 30px;
   text-align:left;
-  /*this won't work*/
   font-weight: bold;
 }
 table,th,td{
@@ -151,10 +155,14 @@ table,th,td{
 th,td{
   padding: 10px;
 }
-td{
-  /*this wont work*/
-  text-decoration: none;
+td a {
+  color: black;
+  font-weight: bold;
 }
+td a:hover{
+  color: white;
+}
+
 
 /*PRODUCTS INDIVIDUAL*/
 .products-info h2 {
@@ -182,14 +190,16 @@ td{
 
 /*BACK OPTION*/
 .back{
-  /*this wont work*/
-  text-decoration: none;
-  font-family: robotomono;
-  font-size: 17px;
   margin-left: 30px;
   margin-top: 50px;
 }
-.back:hover{
+.back a{
+  text-decoration: none;
+  color: #5C4033;
+  font-family: robotomono;
+  font-size: 17px;
+}
+.back a:hover{
   color: white;
 }
 /*FOOTER*/
